@@ -1,2 +1,10 @@
-# Nix-tpa
-A configurable sidebar scoreboard for Paper that shows player name, online count and ping, updated every second. /tpa, /tpaccept, /tpdeny Requests expire after a configurable time Requires Paper 1.21.4 and Java 21.
+# NixTP
+
+Teleport requests between players.
+
+- `/tpa <player>` sends a request
+- `/tpaccept` and `/tpdeny` answer it
+- Requests expire after the time set in `config.yml`
+
+Build: `mvn clean package` -> `target/NixTP-1.0.0.jar`
+Requires Java 21 and Paper 1.21.4.

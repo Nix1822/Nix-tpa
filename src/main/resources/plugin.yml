@@ -1,0 +1,17 @@
+name: NixTP
+version: '${project.version}'
+main: com.nix.nixtp.NixTP
+api-version: '1.21'
+author: Nix
+description: Teleport requests between players
+
+commands:
+  tpa:
+    description: Ask a player to teleport to them
+    usage: /tpa <player>
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+  tpdeny:
+    description: Deny a teleport request
+    usage: /tpdeny

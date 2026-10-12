@@ -1,0 +1,2 @@
+# How long a request stays valid
+request-timeout-seconds: 60
